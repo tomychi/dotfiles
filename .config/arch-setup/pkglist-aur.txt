@@ -1,0 +1,17 @@
+android-sdk-cmdline-tools-latest
+aws-session-manager-plugin
+brave-bin
+google-chrome
+gtk-engine-murrine
+iriunwebcam-bin
+minecraft-launcher
+ngrok
+nitrogen
+picom-git
+postman-bin
+qtile-extras
+ttf-google-fonts-typewolf
+ventoy-bin
+webkit2gtk
+woeusb
+yay

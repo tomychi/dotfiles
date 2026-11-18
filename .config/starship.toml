@@ -1,0 +1,32 @@
+add_newline = false
+command_timeout = 500
+
+format = "$directory$git_branch$git_status$python$nodejs$cmd_duration$line_break$character"
+
+[directory]
+truncation_length = 2
+style = "#c4a7e7"
+
+[git_branch]
+format = "[$symbol$branch]($style) "
+style = "#9ccfd8"
+
+[git_status]
+style = "#ea9a97"
+
+[python]
+format = "[$symbol$version]($style) "
+style = "#6e6a86"
+
+[nodejs]
+format = "[$symbol$version]($style) "
+style = "#6e6a86"
+
+[cmd_duration]
+min_time = 2000
+format = "[$duration]($style) "
+style = "#f6c177"
+
+[character]
+success_symbol = "[❯](#c4a7e7)"
+error_symbol = "[❯](#eb6f92)"

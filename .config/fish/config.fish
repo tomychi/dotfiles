@@ -5,8 +5,8 @@ set -gx PNPM_HOME "$HOME/.local/share/pnpm"
 fish_add_path -g $PNPM_HOME
 
 if status is-interactive
-    type -q eza; and alias ls "eza --group-directories-first --icons"
-    type -q eza; and alias tree "eza -T --icons"
+    type -q eza; and alias ls "eza --group-directories-first --icons=auto"
+    type -q eza; and alias tree "eza -T --icons=auto"
     type -q bat; and alias cat "bat --style=plain --paging=never"
     type -q nvim; and alias vim nvim
 

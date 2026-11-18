@@ -81,7 +81,6 @@ mariadb
 mesa-demos
 mesa-utils
 mkinitcpio
-mpd
 mpv
 mysql-workbench
 nano

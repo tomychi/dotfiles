@@ -1,0 +1,21 @@
+set fish_greeting ""
+fish_config theme choose "Rosé Pine Dawn"
+# Aliases
+
+alias grep "grep --color=auto"
+alias cat "bat --style=plain --paging=never"
+alias ls "exa --group-directories-first"
+alias tree "exa -T"
+alias dotfiles "git --git-dir $HOME/.dotfiles/ --work-tree $HOME"
+alias vim "nvim"
+
+# Prompt
+
+starship init fish | source
+
+# pnpm
+set -gx PNPM_HOME "/home/tomy/.local/share/pnpm"
+if not string match -q -- $PNPM_HOME $PATH
+  set -gx PATH "$PNPM_HOME" $PATH
+end
+# pnpm end

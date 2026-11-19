@@ -1,0 +1,62 @@
+// Zed settings Tomychi
+{
+  "cli_default_open_behavior": "existing_window",
+  "outline_panel": { "dock": "left" },
+  "collaboration_panel": { "dock": "left" },
+  "git_panel": { "dock": "left" },
+  "agent": {
+    "dock": "right",
+    "default_model": {
+      "provider": "anthropic",
+      "model": "claude-opus-4-5",
+    },
+  },
+  "vim_mode": false,
+  "base_keymap": "VSCode",
+
+  // Appearance
+  "theme": "Rosé Pine Moon",
+  "icon_theme": "Catppuccin Mocha",
+  "ui_font_family": "Inter",
+  "ui_font_size": 12,
+  "buffer_font_family": "JetBrainsMono Nerd Font",
+  "buffer_font_size": 12,
+  "current_line_highlight": "line",
+  "relative_line_numbers": "enabled",
+
+  // Translucent background (text stays opaque); remove this block to go back to opaque
+  "experimental.theme_overrides": {
+    "background.appearance": "blurred",
+    "background": "#232136d9",
+    "surface.background": "#232136d9",
+    "editor.background": "#232136d9",
+    "editor.gutter.background": "#232136d9",
+    "panel.background": "#232136d9",
+    "tab_bar.background": "#232136d9",
+    "tab.active_background": "#232136d9",
+    "tab.inactive_background": "#232136d9",
+    "title_bar.background": "#232136d9",
+    "status_bar.background": "#232136d9",
+    "toolbar.background": "#232136d9",
+    "terminal.background": "#232136d9",
+  },
+
+  "tabs": { "git_status": true, "file_icons": true },
+  "project_panel": {
+    "folder_indicator": "icon",
+    "dock": "left",
+    "button": false,
+    "default_width": 160,
+  },
+  "edit_predictions": { "provider": "zed" },
+
+  // Prettier is built in for JS/TS/JSON/CSS; other file types are left untouched
+  "format_on_save": "on",
+
+  "inlay_hints": {
+    "enabled": true,
+    "show_type_hints": true,
+    "show_parameter_hints": true,
+    "show_other_hints": true,
+  },
+}

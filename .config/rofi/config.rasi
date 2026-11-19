@@ -1,0 +1,14 @@
+configuration {
+    modes:           [drun, recursivebrowser, window];
+    font:            "JetBrainsMono Nerd Font 12";
+    show-icons:      true;
+    icon-theme:      "Gruvbox-Dark-Medium";
+    terminal:        "alacritty";
+    drun-display-format: "{name}";
+    sort: true;
+    sorting-method: "fzf";
+    lines: 0;
+}
+
+/* Load the theme file */
+@theme "themes/rose-pine-moon.rasi"

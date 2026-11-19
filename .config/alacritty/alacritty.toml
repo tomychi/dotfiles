@@ -9,7 +9,7 @@ family = "JetBrainsMono Nerd Font"
 style = "Regular"
 
 [window]
-opacity = 0.85
+opacity = 0.8
 decorations = "None"
 dynamic_padding = true
 padding = { x = 12, y = 10 }

@@ -40,18 +40,16 @@ exclude = [
     "tests/",
     "**/node_modules",
 ]
-venvPath = "."
-venv = ".venv"
 pythonVersion = "3.11.13"
 pythonPlatform = "Linux"
 typeCheckingMode = "standard"
 strictListInference = true
-strictDictInference = true
+strictDictionaryInference = true
 strictSetInference = true
 reportUnusedImport = false
 reportUnusedVariable = false
 reportPrivateUsage = false
-deprecateTypingAlias = false
+deprecateTypingAliases = false
 reportUnusedClass = false
 reportUnusedFunction = false
 reportOptionalMemberAccess = true

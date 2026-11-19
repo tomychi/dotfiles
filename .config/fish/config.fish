@@ -7,6 +7,8 @@ fish_add_path -g $PNPM_HOME
 if status is-interactive
     type -q eza; and alias ls "eza --group-directories-first --icons=auto"
     type -q eza; and alias tree "eza -T --icons=auto"
+    type -q eza; and alias ll "eza -l --git --icons=auto --group-directories-first"
+    type -q eza; and alias la "eza -la --git --icons=auto --group-directories-first"
     type -q bat; and alias cat "bat --style=plain --paging=never"
     type -q nvim; and alias vim nvim
 

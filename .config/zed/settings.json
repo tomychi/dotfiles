@@ -4,6 +4,7 @@
   "outline_panel": { "dock": "left" },
   "collaboration_panel": { "dock": "left" },
   "git_panel": { "dock": "left" },
+  "minimap": { "show": "never" },
   "agent": {
     "dock": "right",
     "default_model": {
@@ -13,7 +14,7 @@
   },
   "vim_mode": false,
   "base_keymap": "VSCode",
-
+  "scrollbar": { "show": "never" },
   // Appearance
   "theme": "Rosé Pine Moon",
   "icon_theme": "Catppuccin Mocha",
@@ -47,6 +48,7 @@
     "dock": "left",
     "button": false,
     "default_width": 160,
+    "scrollbar": { "show": "never" },
   },
   "edit_predictions": { "provider": "zed" },
 
